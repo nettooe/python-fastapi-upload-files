@@ -1,12 +1,7 @@
-from typing import Annotated, Optional
-from starlette.types import Message
-
-
 import fastapi
 import starlette
-from fastapi import FastAPI, File, UploadFile, Form, Depends, Request
+from fastapi import FastAPI, UploadFile
 from starlette.datastructures import FormData
-
 
 app = FastAPI()
 
